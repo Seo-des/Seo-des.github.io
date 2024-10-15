@@ -89,11 +89,11 @@ header nav a:hover > a:not(:hover) {
 }
 
 .parallax {
-    transition: 0.3s cubic-bezier(.2, .49, .32, .99);
-    -webkit-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
-    -moz-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
-    -ms-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
-    -o-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
+    transition: 0.4s cubic-bezier(.2, .49, .32, .99);
+    -webkit-transition: 0.4s cubic-bezier(.2, .49, .32, .99);
+    -moz-transition: 0.4s cubic-bezier(.2, .49, .32, .99);
+    -ms-transition: 0.4s cubic-bezier(.2, .49, .32, .99);
+    -o-transition: 0.4s cubic-bezier(.2, .49, .32, .99);
 }
 
 .bg {
