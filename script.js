@@ -36,7 +36,3 @@ window.addEventListener("mousemove", (e) => {
     updateParallax();
 });
 
-// Scroll event for parallax effect
-window.addEventListener('scroll', () => {
-    updateParallax();
-});
