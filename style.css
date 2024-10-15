@@ -80,19 +80,20 @@ header nav a:hover > a:not(:hover) {
 
 .main {
     overflow: hidden;
+    background-color: #000000;
 }
 
 .landing {
-    height: 105dvh; /* Keep as is */
     position: relative;
+    height: 105vh; /* Full viewport height */
 }
 
 .parallax {
-    transition: 0.18s cubic-bezier(.2, .49, .32, .99);
-    -webkit-transition: 0.18s cubic-bezier(.2, .49, .32, .99);
-    -moz-transition: 0.18s cubic-bezier(.2, .49, .32, .99);
-    -ms-transition: 0.18s cubic-bezier(.2, .49, .32, .99);
-    -o-transition: 0.18s cubic-bezier(.2, .49, .32, .99);
+    transition: 0.3s cubic-bezier(.2, .49, .32, .99);
+    -webkit-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
+    -moz-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
+    -ms-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
+    -o-transition: 0.3s cubic-bezier(.2, .49, .32, .99);
 }
 
 .bg {
@@ -218,7 +219,7 @@ header nav a:hover > a:not(:hover) {
     width: 109.38dvw; /* Converted to % */
     height: 67.71dvw; /* Converted to % */
     top: calc(45%);
-    left: calc(50%);
+    left: calc(58%);
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 9;
@@ -226,23 +227,33 @@ header nav a:hover > a:not(:hover) {
 
 .girl {
     position: absolute;
-    width: 109.38dvw; /* Converted to % */
+    width: 109.38dvw;    /*Convertedto%*/
     top: calc(50%);
-    left: calc(50%);
+    left: calc(55%);
     transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 11;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .border {
     position: absolute;
-    height: 18%; /* Use % for height */
-    width: 100%; /* Full width */
-    z-index: 12;
-    top: 91%;
+    height: 18%;
+    /*Use%forheight*/width: 100%;
+    /*Fullwidth*/z-index: 12;
+    top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
+
+
 
 
 /* =================================================================== */
